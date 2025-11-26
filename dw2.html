@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>{{value}}</title>
+    </head>
+    <body>
+        <form method="POST">
+            <h1>Generador de contraseñas:</h1>
+            <h3>Este es un generador de contraseñas basado en python</h3>
+            <p>Que desea hacer: 
+                <select name="generate">
+                    <option value="1">Generar</option>
+                    <option value="2">Visualizar anteriores</option>
+                </select required>
+            </p>
+            <p>De que longitud: 
+                <input type = "text" name="long" maxlength="25" size="25" required>
+            </p>
+            <input type="submit" value="Subir">
+        </form>
+        <p><a href="http://127.0.0.1:5000/sec" target="_blank"><input type="submit" value="continuar"></a></p>
+    </body>
+</html>
